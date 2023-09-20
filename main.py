@@ -49,8 +49,8 @@ def get_f():
         pass
 
 def solvef():
+    global total
     try:
-        global total
         D = a*e-b*d
         Dx = c*e-b*f
         Dy = a*f-d*c
